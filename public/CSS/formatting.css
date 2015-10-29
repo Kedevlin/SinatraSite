@@ -8,6 +8,7 @@ header {
   color: rgb(77, 0, 152);
   background-color: rgb(247, 228, 118);
   text-align: center;
+  font-family: fantasy;
 }
 
 li {
@@ -26,6 +27,11 @@ footer {
   border-color: rgb(77, 0, 152);
 }
 
-.fantsy_font {
-  font-family: fantasy;
+.page_headings {
+  font-family: cursive;
+  color: rgb(102, 0, 51);
+}
+
+#indent {
+  text-indent: 110px;
 }
