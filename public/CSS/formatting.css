@@ -1,0 +1,18 @@
+body {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  color: rgb(77, 0, 152);
+  background-color: rgb(179, 239, 0);
+  text-align: center;
+}
+
+footer {
+  margin-top: 40;
+  padding: 20;
+  text-align: center;
+  border-top: thick double #ff0000;
+  border-color: rgb(77, 0, 152);
+}
