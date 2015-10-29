@@ -4,6 +4,12 @@
     <link href="css/formatting.css" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <h1>Kelly's Website</h1>
+    </header>
     <%= yield %>
+    <footer>
+      © <%= Time.now.year %>
+    </footer>
   </body>
 </html>
