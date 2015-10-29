@@ -1,12 +1,21 @@
 body {
   width: 960px;
   margin: auto;
+  background-color: rgb(203, 239, 254);
 }
 
 header {
   color: rgb(77, 0, 152);
-  background-color: rgb(179, 239, 0);
+  background-color: rgb(247, 228, 118);
   text-align: center;
+}
+
+li {
+  color: rgb(89, 87, 88);
+}
+
+p {
+  color: rgb(0, 0, 153);
 }
 
 footer {
@@ -15,4 +24,8 @@ footer {
   text-align: center;
   border-top: thick double #ff0000;
   border-color: rgb(77, 0, 152);
+}
+
+.fantsy_font {
+  font-family: fantasy;
 }
