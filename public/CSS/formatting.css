@@ -8,7 +8,9 @@ header {
   color: rgb(77, 0, 152);
   background-color: rgb(247, 228, 118);
   text-align: center;
-  font-family: fantasy;
+  font-family: fantasy, sans-serif;
+  margin: 1px;
+  padding: 1px;
 }
 
 li {
@@ -25,13 +27,38 @@ footer {
   text-align: center;
   border-top: thick double #ff0000;
   border-color: rgb(77, 0, 152);
+  background-color: rgb(247, 228, 118);
 }
 
 .page_headings {
-  font-family: cursive;
+  font-family: cursive, sans-serif;
   color: rgb(102, 0, 51);
 }
 
-#indent {
+#pic_heading {
   text-indent: 110px;
+}
+
+.home_link {
+  margin: 5 0;
+}
+
+#blog_series_title {
+  font-family: Impact, sans-serif;
+}
+
+#blog_title {
+  font-family: "Courier New", sans-serif;
+}
+
+h2 {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+}
+
+h5 {
+  font-style: italic;
 }
