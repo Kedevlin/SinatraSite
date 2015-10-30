@@ -23,13 +23,16 @@ footer {
   font-family: Verdana, Geneva, sans-serif;
 }
 
-.home_link {
-  margin: 3% 0;
-}
-
 .navigation_links {
   display: inline-block;
   margin: 5;
+}
+
+nav {
+  width: 215px;
+  padding: 5px;
+  border: 2px solid rgb(38, 69, 77);
+  margin: 0;
 }
 
 @keyframes color_animate {
