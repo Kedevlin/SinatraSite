@@ -1,38 +1,23 @@
 body {
   width: 960px;
   margin: auto;
-  background-color: rgb(203, 239, 254);
 }
 
 header {
-  color: rgb(77, 0, 152);
-  background-color: rgb(247, 228, 118);
+  color: rgb(57, 210, 245);
+  background-color: rgb(38, 69, 77);
   text-align: center;
-  font-family: fantasy, sans-serif;
   margin: 1px;
   padding: 1px;
-}
-
-li {
-  color: rgb(0, 0, 153);
-}
-
-p {
-  color: rgb(0, 0, 153);
 }
 
 footer {
   margin-top: 40;
   padding: 20;
   text-align: center;
-  border-top: thick double #ff0000;
-  border-color: rgb(77, 0, 152);
-  background-color: rgb(247, 228, 118);
-}
-
-.page_headings {
-  font-family: cursive, sans-serif;
-  color: rgb(102, 0, 51);
+  border-top: thick double rgb(57, 210, 245);
+  color: rgb(57, 210, 245);
+  background-color: rgb(38, 69, 77);
 }
 
 #pic_heading {
@@ -47,27 +32,30 @@ footer {
   margin: 5 0;
 }
 
-#blog_series_title {
-  font-family: Impact, sans-serif;
-}
-
-#blog_title {
-  font-family: "Courier New", sans-serif;
-}
-
-h2 {
-  font-family: "Comic Sans MS", sans-serif;
-}
-
-h3 {
-  font-family: Arial, sans-serif;
-}
-
-h5 {
-  font-style: italic;
-}
-
 .navigation_links {
   display: inline-block;
   margin: 5;
+}
+
+.text {
+  color: rgb(38, 69, 77);
+}
+
+.page_headings {
+  color: rgb(38, 69, 77);
+  text-shadow: 2px 2px rgb(57, 210, 245);
+}
+
+#blog_series_title {
+  color: rgb(38, 69, 77);
+}
+
+#blog_title {
+  color: rgb(38, 69, 77);
+  text-decoration: underline;
+}
+
+#date {
+  color: rgb(38, 69, 77);
+  font-style: italic;
 }
