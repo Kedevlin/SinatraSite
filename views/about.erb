@@ -3,8 +3,8 @@
       <a href="/">Home</a>
     </div>
       <h1 class ="page_headings">About</h1>
-      <img src="self.jpg" width="500"/>
-      <p class="text">
+      <img class="about_pics" src="self.jpg" width="500"/>
+      <p id="about_text">
         Hello! I'm
         <% dob = Time.parse("1989-04-23") %>
         <% age = Date.today.year - dob.year %>
@@ -13,5 +13,5 @@
         <%= age %>
         years old.  I'm currently a student at Ada Developers Academy in Seattle.  Previously I worked in Los Angeles at an e-commerce startup. I grew up in southeastern Massachusetts, attended college in Providence, RI, and lived in Boston for two years after college before moving to LA.  I love Boston Terriers, yoga, and dancing to hip-hop and gangsta rap.
       </p>
-      <img src="dog.jpg" width="500"/>
+      <img class="about_pics" src="dog.jpg" width="500"/>
   </body>
