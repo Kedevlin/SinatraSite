@@ -32,10 +32,19 @@ footer {
   margin: 5;
 }
 
+@keyframes color_animate {
+    0%   {color: rgb(57, 210, 245);}
+    25%  {color: rgb(50, 150, 175);}
+    50%  {color: rgb(45, 100, 100);}
+    100% {color: rgb(38, 69, 77);}
+}
+
 #welcome {
   color: rgb(38, 69, 77);
   margin: 5%;
   font-family: Arial, Helvetica, sans-serif;
+  animation-name: color_animate;
+  animation-duration: 10s;
 }
 
 #utah_pic_heading {
@@ -60,6 +69,8 @@ footer {
   color: rgb(38, 69, 77);
   margin: 7% 5%;
   font-family: Arial, Helvetica, sans-serif;
+  animation-name: color_animate;
+  animation-duration: 10s;
 }
 
 #brunch_gif {
